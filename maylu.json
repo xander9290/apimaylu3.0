@@ -1,0 +1,21 @@
+{
+  "areas": [],
+  "categorias": [],
+  "subcategorias": [],
+  "productos": [],
+  "clientes": [],
+  "operadores": [
+    {
+      "name": "admin",
+      "pswd": "$2a$05$EEkO/ta9pBcqYMcHol1r8eSzS8exT2D4nmabcm16rrKh3124WPRhW",
+      "rol": "master",
+      "createdAt": "2020-11-14T07:29:06.449Z",
+      "createdBy": "admin",
+      "lastEdit": "",
+      "id": "3b12193b-e553-4fe8-921a-101a33847112"
+    }
+  ],
+  "cuentas": [],
+  "logs": [],
+  "cajas": []
+}
