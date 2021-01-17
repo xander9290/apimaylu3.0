@@ -17,13 +17,19 @@ router.get("/cuentas", (req, res) => {
   res.json(cuentas);
 });
 
+router.get("/cuentas/:id", (req, res) => {
+  const { id } = req.params;
+  const cuenta = getConnection().get("cuentas").find({ id }).value();
+  res.json(cuenta);
+});
+
 router.get("/cuentas/abierto/:fecha", (req, res) => {
   const { fecha } = req.params;
   const cuentas = getConnection()
     .get("cuentas")
     .sortBy("orden")
     .filter({ estado: "abierto" })
-    .filter({fecha})
+    .filter({ fecha })
     .value();
   res.json(cuentas);
 });
@@ -33,8 +39,7 @@ router.get("/cuentas/cerrado/:fecha", (req, res) => {
   const cuentas = getConnection()
     .get("cuentas")
     .sortBy("orden")
-    .filter({ estado: "cerrado" })
-    .filter({fecha})
+    .filter({ fecha })
     .value();
   res.json(cuentas);
 });

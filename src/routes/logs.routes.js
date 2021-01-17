@@ -13,7 +13,7 @@ router.post("/logs", (req, res) => {
 });
 
 router.get("/logs", (req, res) => {
-  const logs = getConnection().get("logs").sortBy("id").value();
+  const logs = getConnection().get("logs").value();
   res.json(logs);
 });
 

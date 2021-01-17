@@ -2,7 +2,10 @@
 const app = require("./app");
 const { createConnection } = require("./database");
 
+// Port
+app.set("port",3001);
+
 createConnection();
-app.listen(3001);
-console.log("Servidor iniciado");
+app.listen(app.get("port"));
+console.log(">Servidor iniciado en puerto: ",app.get("port"),"\n>Ya puedes iniciar la aplicación.");
 
