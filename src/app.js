@@ -2,6 +2,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
+const path = require("path");
 
 // Initializations
 const app = express();
@@ -21,5 +22,7 @@ app.use(require("./routes/operadores.routes"));
 app.use(require("./routes/logs.routes"));
 app.use(require("./routes/cuentas.routes"));
 app.use(require("./routes/cajas.routes"));
+
+app.use(express.static(path.join(__dirname, "build")));
 
 module.exports = app;

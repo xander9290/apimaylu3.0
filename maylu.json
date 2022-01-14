@@ -29579,6 +29579,171 @@
       "closedAt": "2021-01-17T01:42:41.141Z",
       "fecha": "2021-01-16",
       "id": "d0a8ef45-510f-4173-a21e-7e982cbb07f3"
+    },
+    {
+      "folio": 297,
+      "orden": 1,
+      "torreta": "mostrador",
+      "personas": 1,
+      "servicio": "pll",
+      "cliente": {
+        "name": "",
+        "tel": "",
+        "address": {
+          "calle": "",
+          "cruces": "",
+          "colonia": "",
+          "obs": ""
+        },
+        "id": null
+      },
+      "estado": "cerrado",
+      "impreso": true,
+      "items": [
+        {
+          "cant": 1,
+          "name": "cordon pollo",
+          "importe": 72,
+          "price": 72,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "e41db088-3918-4415-bd01-0ba0df2bad42",
+          "contable": true,
+          "createdAt": "2022-01-14T06:20:48.137Z",
+          "createdBy": "admin",
+          "cancelado": false
+        },
+        {
+          "cant": 1,
+          "name": "te helado",
+          "importe": 15,
+          "price": 15,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "5ad597a5-94c9-4152-8b5d-daae1fca1767",
+          "contable": true,
+          "createdAt": "2022-01-14T06:22:56.748Z",
+          "createdBy": "admin",
+          "cancelado": false
+        }
+      ],
+      "importe": 87,
+      "dscto": 0,
+      "total": 87,
+      "efectivo": 100,
+      "tarjeta": 0,
+      "cambio": 13,
+      "createdAt": "2022-01-14T06:20:04.141Z",
+      "createdBy": "admin",
+      "closedAt": "2022-01-14T06:46:00.980Z",
+      "fecha": "2022-01-14",
+      "id": "3af0e35d-1b11-4978-92db-e2dae30ab2eb"
+    },
+    {
+      "folio": 298,
+      "orden": 2,
+      "torreta": "GABRIELA GUILLEN",
+      "personas": 1,
+      "servicio": "domicilio",
+      "cliente": {
+        "name": "GABRIELA GUILLEN",
+        "tel": "3336462215",
+        "address": {
+          "calle": "TEODOMIRO MANZANO 4016",
+          "cruces": "CANAL Y RICARDO TOSCANO",
+          "colonia": "PATRIA NUEVA",
+          "obs": ""
+        },
+        "createdAt": "2021-01-08T20:43:30.288Z",
+        "createdBy": "admin",
+        "lastEdit": "",
+        "id": "07c3cb9b-5d35-4fb9-aa15-b4957a5e1582"
+      },
+      "estado": "cerrado",
+      "impreso": true,
+      "items": [
+        {
+          "cant": 1,
+          "name": "alga camaron",
+          "importe": 64,
+          "price": 64,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "404e545e-0b5c-4446-8df2-57134ae7b15b",
+          "contable": true,
+          "createdAt": "2021-01-08T20:43:39.506Z",
+          "createdBy": "admin",
+          "cancelado": false
+        },
+        {
+          "cant": 1,
+          "name": "aderezo chipotle",
+          "importe": 0,
+          "price": 0,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "e5ce6874-013d-4ea2-a5ab-0d2bae619539",
+          "contable": false,
+          "createdAt": "2021-01-08T20:43:54.897Z",
+          "createdBy": "admin",
+          "cancelado": false
+        },
+        {
+          "cant": 1,
+          "name": "aderezo cilantro",
+          "importe": 0,
+          "price": 0,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "db5af7db-3fe8-490e-b7fe-d2d0435c35ef",
+          "contable": false,
+          "createdAt": "2021-01-08T20:43:55.474Z",
+          "createdBy": "admin",
+          "cancelado": false
+        },
+        {
+          "cant": 1,
+          "name": "soya con limon",
+          "importe": 0,
+          "price": 0,
+          "dscto": 0,
+          "modificadores": [],
+          "producto_id": "141ff9ca-0489-4d24-9b6e-9ea36972f941",
+          "contable": false,
+          "createdAt": "2021-01-08T20:44:01.930Z",
+          "createdBy": "admin",
+          "cancelado": false
+        },
+        {
+          "cant": 1,
+          "name": "soya con chile",
+          "importe": 0,
+          "price": 0,
+          "dscto": 0,
+          "modificadores": [
+            {
+              "name": "PAGA JUSTO",
+              "price": 0
+            }
+          ],
+          "producto_id": "148de478-2678-4334-821d-76da1a6b7455",
+          "contable": false,
+          "createdAt": "2021-01-08T20:44:02.380Z",
+          "createdBy": "admin",
+          "cancelado": false
+        }
+      ],
+      "importe": 64,
+      "dscto": 0,
+      "total": 64,
+      "efectivo": 100,
+      "tarjeta": 0,
+      "cambio": 36,
+      "createdAt": "2022-01-14T06:50:58.880Z",
+      "createdBy": "admin",
+      "closedAt": "2022-01-14T06:52:16.578Z",
+      "fecha": "2022-01-14",
+      "id": "27fba860-f30d-4e0c-9ab9-0901984e4ea1"
     }
   ],
   "logs": [
@@ -40606,6 +40771,111 @@
       "operador": "admin",
       "commit": "ha cobrado la cuenta 12",
       "id": "05fc7b50-aeef-4730-99c2-62990a99bdb0"
+    },
+    {
+      "createdAt": "2022-01-14T06:18:09.108Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha iniciado sesión",
+      "id": "e33d688a-cd0a-4312-92d9-1805b5979e38"
+    },
+    {
+      "createdAt": "2022-01-14T06:19:12.229Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha hecho una búsqueda de cuentas cerradas ",
+      "id": "7b02c737-9adc-4f3b-bacc-f4a2620e5acb"
+    },
+    {
+      "createdAt": "2022-01-14T06:20:04.161Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha creado la orden en comedor 1",
+      "id": "f286de6b-3985-4677-9ff6-493f05fddd20"
+    },
+    {
+      "createdAt": "2022-01-14T06:23:00.920Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha hecho una captura en la cuenta 1",
+      "id": "082c5f08-9f63-4daa-bb11-90a68abb6c5a"
+    },
+    {
+      "createdAt": "2022-01-14T06:23:26.023Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha impreso la orden 1",
+      "id": "4a370dee-d8c1-4078-8686-99352ac3fdd4"
+    },
+    {
+      "createdAt": "2022-01-14T06:23:57.618Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha cerrado sesion",
+      "id": "cf1b224b-c504-4c07-a446-f56e37876977"
+    },
+    {
+      "createdAt": "2022-01-14T06:24:05.027Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha iniciado sesión",
+      "id": "8214cb48-b5b8-4576-bfe6-657b4007a05b"
+    },
+    {
+      "createdAt": "2022-01-14T06:44:05.617Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha iniciado sesión",
+      "id": "30174935-ca9b-4651-a182-1f138f82e025"
+    },
+    {
+      "createdAt": "2022-01-14T06:45:45.089Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha impreso la orden 1",
+      "id": "f074d013-6366-47ba-99d4-8484472ce6d8"
+    },
+    {
+      "createdAt": "2022-01-14T06:46:01.013Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha cobrado la cuenta 1",
+      "id": "75550d13-ee67-4dec-9d32-53271c3c727c"
+    },
+    {
+      "createdAt": "2022-01-14T06:46:34.290Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha reimprimido la cuenta cerrada 1",
+      "id": "0b63ac08-6012-42d0-bbbb-e1381d92eb26"
+    },
+    {
+      "createdAt": "2022-01-14T06:50:58.919Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha creado la orden en domicilio por historial 2",
+      "id": "e58cfe53-8a1c-44c4-b6fc-8ab21becde99"
+    },
+    {
+      "createdAt": "2022-01-14T06:51:32.694Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha impreso la orden 2",
+      "id": "75302297-1a1f-412d-aaeb-464bd8c4fe6c"
+    },
+    {
+      "createdAt": "2022-01-14T06:51:45.386Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha impreso la orden 2",
+      "id": "24d949a7-56bf-4fd0-b849-e072494f4ba9"
+    },
+    {
+      "createdAt": "2022-01-14T06:52:16.607Z",
+      "fecha": "2022-01-14",
+      "operador": "admin",
+      "commit": "ha cobrado la cuenta 2",
+      "id": "6edaf72c-0208-47d9-8bc8-874305f80bae"
     }
   ],
   "cajas": [
